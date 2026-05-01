@@ -15,7 +15,7 @@ const base = import.meta.env.BASE_URL;
 
   <body>
     <div class="page">
-      <aside class="sidebar" style={`--sidebar-photo: url('${base}images/fulls/Welt.jpg')`}>
+      <aside class="sidebar" style={`background-image: linear-gradient(rgba(220,238,246,0.47), rgba(194,210,218,0.88)), url('${base}images/fulls/Welt.jpg')`}>
         <div class="sidebar-inner">
           <div class="avatar-shell" id="profile-avatar">
             <img
@@ -219,9 +219,6 @@ const base = import.meta.env.BASE_URL;
     bottom: 0;
     width: var(--sidebar-width);
     background-color: var(--sidebar-bg);
-    background-image:
-      linear-gradient(rgba(220, 238, 246, 0.47), rgba(194, 210, 218, 0.88)),
-      var(--sidebar-photo);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
